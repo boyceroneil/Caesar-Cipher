@@ -1,0 +1,74 @@
+You will encrypt a message and save it to a file.
+You will read from the file and decrypt the message, printing it to the console.
+
+
+
+A Caesar Cipher involves one encrypting a message by replacing each letter in it with a “shifted” letter.
+If you shift the letter A by one space, you get the letter B.
+If you shift the letter A by two spaces, you get the letter C.
+Refer to the diagram to get a mental picture of what is required:
+
+
+
+
+The console should display something akin to the example below:
+
+
+
+Do you wish to encrypt or decrypt a message?
+
+encrypt
+
+Enter your message:
+
+The sky above the port was the color of television, tuned to a dead channel.
+
+Enter the key number (1-52)
+
+13
+
+Your translated text is:
+gur FxL noBIr Gur CBEG JnF Gur pByBE Bs GryrIvFvBA, GHArq GB n qrnq punAAry.
+Do you wish to encrypt or decrypt a message?
+
+decrypt
+
+Enter your message:
+
+gur FxL noBIr Gur CBEG JnF Gur pByBE Bs GryrIvFvBA, GHArq GB n qrnq punAAry.
+
+Enter the key number (1-52)
+
+13
+
+Your translated text is:
+
+The sky above the port was the color of television, tuned to a dead channel.
+Using the incorrect key:
+
+
+
+Do you wish to encrypt or decrypt a message?
+
+decrypt
+
+Enter your message:
+
+gur FxL noBIr Gur CBEG JnF Gur pByBE Bs GryrIvFvBA, GHArq GB n qrnq punAAry.
+
+Enter the key number (1-52)
+
+15
+
+Your translated text is:
+
+Rfc qiw YZmtc rfc nmpr uYq rfc amjmp md rcjctgqgml, rslcb rm Y bcYb afYllcj.
+
+
+The text that is encrypted should be saved to a file.
+The text that is decrypted should read the text from the file and decrypt it.
+You are allowed to include the encryption key in the file in order to read it,
+or to solve this any number of other ways as long as you read and write to files!
+
+Questions for this assignment
+Was Caesar cipher the first cipher ever invented?
